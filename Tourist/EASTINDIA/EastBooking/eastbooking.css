@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-image: url("./back2.jpg");
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.navbar{
+    height:55px;
+    width:100%;
+    text-align: center;
+    background-color: rgb(32, 32, 118);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    /* text-align: center; */
+    width:600px;
+    height:500px;
+    margin-top: 6.3%;;
+    /* background-color: grey; */
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+    backdrop-filter: blur(0.1px);    
+    border-radius:10px;
+}
+.top-form{
+    text-align: center;
+}
+.types{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.two{
+    display:flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    gap:10px;
+}
+.input{
+    height:40px;
+    width:250px;
+    align-content: center;
+}
+input{
+    width:230px;
+    height:30px;
+    border-radius: 5px;
+    border :2px solid white;
+}
+select{
+    width:235px;
+    height:36px;
+    border :2px solid white;
+    border-radius: 5px;
+}
+.letters{
+    justify-self:center ;
+}
+.button{
+    text-align: center;
+}
+.guests{
+    width:227px;
+}
+h3{
+    /* font-size: 25px;
+    color:rgb(20, 0, 92); */
+    font-size: 30px;
+    font-weight: bold;
+    /* background: linear-gradient(to right,rgb(3, 0, 92),rgb(0, 0, 84),rgb(13, 13, 105),rgb(32,32,118)); */
+    background: linear-gradient(to right,rgb(33, 24, 75),rgb(255, 255, 255),rgb(13, 13, 105)); /* Gradient colors */
+
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent;
+}
+.book-now{
+    font-size: 20px;
+    /* color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 30px; */
+    font-weight: bold;
+    background: linear-gradient(to right,rgb(20, 4, 92),rgb(255, 255, 255),rgb(13, 13, 105)); /* Gradient colors */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent
+}
+.submit-button{
+    width:100px;
+    padding:10px;border-radius: 3px;
+    /* border:2px solid white; */
+    background-color: rgb(32, 32, 118);
+    color:white;
+    border:2px solid  rgb(32, 32, 118);
+    transition: all 0.3s ease-in-out
+}
+.submit-button:hover{
+    width: 120px;
+    font-size: 15px;;
+    color:white;
+    
+}
+.letters{
+    color:  rgb(32, 32, 118);
+    font-weight: 600;
+    font-size: 18px;
+}
+/* .selection select option::checked{
+    background-color: rgb(0, 0, 0);
+}
+.selection select option:checked {
+    background-color: #f50505; /* Change selected background color */
+    /* color: #333; /* Change selected text color */
+.footer{
+    margin-top: auto;
+    height:50px;
+    width:100%;
+    background-color: rgb(32, 32, 118);
+}
+.this-page{
+    text-decoration: underline;
+    text-underline-offset: 8px; 
+    color:white;
+}

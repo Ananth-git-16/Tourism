@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.top{
+    
+    height: 150px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    /* background-image: url("./sea\ .png");
+    background-size: cover;    */
+    /* background-color: #eb8059; */
+    background-color:  rgb(172, 172, 255); 
+}
+.text{
+    font-size: 20px;
+    color:rgb(32, 32, 118);
+    margin-top:20px;
+}
+.text:hover{
+    color:black;
+}
+.first{
+    justify-items: center;
+}
+.box-container{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.box{
+    height:80px;
+    width:200px;
+    
+    /* background-color: black; */
+}
+.in-first{
+    height:60px;
+    padding-left:5px;
+    background-color: rgba(255,255,255,0.3);
+}
+.in-second{
+    height:20px;
+    position:relative;
+    bottom:10px;
+    background-color: rgb(15, 0, 112);
+}
+.flex{
+    display:flex;
+    gap:10px;
+    position:relative;
+    bottom:30px;
+}
+.one{
+    font-size:16px;
+}
+.two{
+    color:yellow;
+}
+.three{
+    color:rgb(78, 78, 79);
+    position:relative;
+    bottom:60px;
+}
+.second-box{
+    color:white;
+    font-size: 13px;
+    text-align: center;
+    padding:2px;
+}
+.navbar{
+    height:55px;
+    width:100%;
+    text-align: center;
+    background-color: rgb(32, 32, 118);
+    /* background-color:  #ff6128; */
+    display:flex;
+    gap:80px;
+    
+}
+.navbar p{
+    color:white;
+}
+.summa{
+    margin-left:35%
+}
+#para{
+    font-size: 18px;
+    color:rgb(32, 32, 118);
+}
+
+.her-photo{
+    height:200px;
+    width:300px;
+}
+.heritage{
+    display:flex;
+    gap:20px;
+    margin-top: 3%;
+    /* margin-left: 24%; */
+    flex-direction: column;
+}
+.new-flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.inner-her{
+    display:flex;
+    gap:5%;
+}
+.footer{
+    margin-top:2%;
+    height:50px;
+    width:100%;
+    background-color: rgb(32, 32, 118);
+}
+.content{
+    width:500px;
+}
+.title{
+    font-size: 18px;
+    font-weight: 500;;
+}
+.read{
+    height:20px;
+    width:100px;
+    border:2px solid rgb(32, 32, 118);
+    padding:10px;
+    text-align:center;
+}
+.more{
+    position:relative;
+    bottom:15px;
+}
+.this-page{
+    text-decoration: underline;
+    text-underline-offset: 8px; 
+}
+.tag{
+    position:relative;
+    bottom:20px;
+}
+.read:hover{
+    background-color:rgb(32, 32, 118) ;
+    color:white;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
